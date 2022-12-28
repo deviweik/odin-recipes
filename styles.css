@@ -1,0 +1,69 @@
+.general {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    text-decoration: underline rgb(106, 12, 12);
+}
+
+h3 {
+    font-size: 28px;
+    text-align: center;
+    color: rgb(99, 48, 48);
+    text-decoration: underline black;
+}
+
+.ingredients-list, .steps, .desc {
+    margin: auto;
+    width: 60%;
+    border: 3px solid rgb(106, 12, 12);
+    padding: 10px;
+}
+
+.recipe-title {
+    text-align: center;
+    font-size: 18px;
+    color: rgb(106, 12, 12);
+}
+
+.index-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
+.main-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+}
+
+.img-padding-top {
+    padding-top: 30px;
+}
+
+.img-padding-bottom {
+    padding-bottom: 30px;
+}
+
+.back-button {
+    border: 3px solid rgb(106, 12, 12);
+    background-color: gray;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    margin-left: 37%;
+    width: 25%;
+}
+
+a.back-button-link:visited {
+    color: inherit;
+}
+
+a.recipe-link:visited {
+    color: inherit;
+}

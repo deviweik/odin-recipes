@@ -17,7 +17,7 @@ h3 {
 
 .ingredients-list, .steps, .desc {
     margin: auto;
-    width: 60%;
+    width: 50%;
     border: 3px solid rgb(106, 12, 12);
     padding: 10px;
 }
@@ -26,6 +26,13 @@ h3 {
     text-align: center;
     font-size: 18px;
     color: rgb(106, 12, 12);
+}
+
+.highlight-selection:hover {
+    border: 2px solid rgb(106, 12, 12);
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .index-img {
@@ -50,14 +57,21 @@ h3 {
     padding-bottom: 30px;
 }
 
+.back-button:hover {
+    background-color: white;
+    color: gray;
+}
+
 .back-button {
     border: 3px solid rgb(106, 12, 12);
     background-color: gray;
     color: white;
     padding: 5px;
     text-align: center;
-    margin-left: 37%;
-    width: 25%;
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    width: 13%;
 }
 
 a.back-button-link:visited {
